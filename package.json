@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny Node.js web app for learning a GitHub Actions CI/CD pipeline.",
+  "main": "app/server.js",
+  "scripts": { "start": "node app/server.js", "test": "node --test" },
+  "engines": { "node": ">=20" }
+}
